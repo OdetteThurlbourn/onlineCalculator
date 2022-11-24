@@ -74,6 +74,35 @@ button {
     border-radius: 4px;
 }
 
+.operator {
+    background-color: #4197BE;
+}
+
+.number, .decimal, .equals {
+    background-color: #8794dd;
+}
+
+.allClear, .backspace, .negativePositive {
+    background-color: #606581;
+}
+
+.backspace {
+    font-size: 1.4em;
+}
+
+.footer {
+    font-family: Nunito, sans-serif;
+    font-size: 0.5em;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+
+
+
 
 
 
