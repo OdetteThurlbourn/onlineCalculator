@@ -23,6 +23,8 @@ body {
     margin-top: 2em;
 }
 
+/* Section structure and styling */
+
 #calculator {
     min-height: 100vh;
     display: flex;
@@ -31,5 +33,31 @@ body {
     align-content: center;
     background-color: #41BEAC;
 }
+
+
+/* Calculator styling */
+
+.container {
+    background-color: #4153BE;
+    display: grid;
+    grid-template-columns: repeat(4, 125px);
+    grid-template-rows: repeat(6, 80px);
+    border: 10px solid black;
+    border-radius: 6px;
+}
+
+.screen {
+    background-color: #ffff;
+    font-family: Nunito, sans-serif;
+    display: flex;
+    font-size: 3em;
+    color: black;
+    grid-column: 1 / 5;
+    justify-content: flex-end;
+    border-radius: 4px;
+    padding-right: 8px;
+    margin: 4px;
+}
+
 
 
